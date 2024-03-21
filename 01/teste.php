@@ -35,4 +35,14 @@
 
     echo "$nome tem $idade anos de idade <br>";
     echo '$nome tem $idade anos de idade';
+
+    // Testando o case sensitive - Palavras reservadas
+    echo "Texto 1 <br>";
+    ECHO "Texto 2 <br>";
+
+    // Testando o case sensitive - variáveis
+    $primeiroNome = "Carlos";
+    echo $primeiroNome;
+    ECHO $PRIMEIRONOME;
+
 ?>
