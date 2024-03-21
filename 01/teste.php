@@ -44,5 +44,6 @@
     $primeiroNome = "Carlos";
     echo $primeiroNome;
     ECHO $PRIMEIRONOME;
+    
 
 ?>
