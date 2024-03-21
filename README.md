@@ -1,2 +1,2 @@
-# php_Senac
-Repositório para armazenar materiais de aula do curso TI04 UC9 - SENAC
+# php-senac
+Repositório criado para acompanhamento dos aulas do curso de Técnico em Informática para Iinternet na UC07, backend.
