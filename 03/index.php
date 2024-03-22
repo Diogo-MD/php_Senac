@@ -60,6 +60,37 @@ echo $num1 > $num2 ? "Verdadeiro <br>" : "Falso <br>";
 
 // Menor que 
 echo "Menor que: ";
-echo $num1 < $num2 ? "Verdadeiro <br>" : "Falso <br>    ";
+echo $num1 < $num2 ? "Verdadeiro <br>" : "Falso <br><hr>";
 
+
+
+//// Operadores Lógicos
+
+// E Lógico (AND)
+echo "E lógico (AND)<br>";
+echo "Verdadeiro e Verdadeiro: ";
+echo true && true ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Verdadeiro e Falso: ";
+echo true && false ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Falso e Verdadeiro: ";
+echo false && true ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Falso e Falso: ";
+echo false && false ? "Verdadeiro <br>" : "Falso <br><hr>";
+
+// Ou Lógico (OR)
+echo "Ou lógico (OR)<br>";
+echo "Verdadeiro e Verdadeiro: ";
+echo true || true ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Verdadeiro e Falso: ";
+echo true || false ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Falso e Verdadeiro: ";
+echo false || true ? "Verdadeiro <br>" : "Falso <br>";
+
+echo "Falso e Falso: ";
+echo false || false ? "Verdadeiro <br>" : "Falso <br>";
 ?>
