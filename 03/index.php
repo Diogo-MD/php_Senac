@@ -92,5 +92,5 @@ echo "Falso e Verdadeiro: ";
 echo false || true ? "Verdadeiro <br>" : "Falso <br>";
 
 echo "Falso e Falso: ";
-echo false || false ? "Verdadeiro <br>" : "Falso <br>";
+echo false || false ? "Verdadeiro <br>" : "Falso <br>"; 
 ?>
