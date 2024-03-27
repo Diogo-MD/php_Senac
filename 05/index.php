@@ -46,5 +46,11 @@ echo "<br>";
 echo "Número de elementos no Array de Frutas: " . count ($frutas) . "<br>";
 echo "Índice da fruta 'Laranja' no Array: " . array_search("Laranja",  $frutas) . "<br>";
 echo "Última fruta do Array: " . end($frutas) . "<br>";
+echo "Array de frutas antes de reverter: " . "<br>";
+print_r($frutas);
+echo "<br>";
+echo "Array de frutas depois de reverter: " . "<br>";
+$frutas_revertidas = array_reverse($frutas);
+print_r($frutas_revertidas);
 
 ?>
