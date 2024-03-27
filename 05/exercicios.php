@@ -7,13 +7,16 @@ echo $week[2];
 
 //Exercício 2 - Alteração de Elementos:
 //Crie um array contendo os meses do ano. Altere o valor do último elemento para "Dezembro".
-$months = array("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro");
-
+$months = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+$months[count($months) - 1] = "Dezembro";
+echo "Último mês do ano alterado para: " . end($months) . "<br>";
 
 //Exercício 3 - Adição de Elementos:
 //Crie um array vazio. Adicione os números de 1 a 5 ao array. Depois, adicione o número 6 ao final do array.
-$array_vazio = array();
-$array_vazio = [1, 2, 3, 4, 5];
+$array_vazio = [];
+for ($i = 1; $i <= 5; $i++) {
+    $array_vazio[] = $i;
+}
 $array_vazio[] = 6;
 print_r($array_vazio);
 echo "<br>";
@@ -36,10 +39,8 @@ echo "<br>Posição do Sábado: " . array_search("Sábado", $week) . "<br>";
 
 //Exercício 7 - Reversão de Array:
 //Crie um array contendo os números de 1 a 10. Inverta a ordem dos elementos do array e exiba o resultado.
-$contagem = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+$contagem = range(1, 10);
 $contagem_reversa = array_reverse($contagem);
 echo "Contagem reversa de 1 à 10: ";
-foreach ($contagem_reversa as $numero) {
-    echo $numero . " ";
-}
-?>
+print_r($contagem_reversa);
+echo "<br>";
