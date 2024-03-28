@@ -25,5 +25,13 @@ do {
     echo "Número: $contador <br>";
     $contador++;
 } while ($contador <= 5);
+echo "<br>";
+
+// Exemplo 4: FOREACH
+echo "Exemplo 4: FOREACH <br>";
+$array_vogais = ["A","E","I","O","U",];
+foreach ($array_vogais as $vogal) {
+    echo "Vogal: $vogal <br>";
+}
 
 ?>
